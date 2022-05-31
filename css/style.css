@@ -6,7 +6,7 @@
 
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background: peachpuff;
+  background: #4F6273;
 }
 
 a {
@@ -24,8 +24,9 @@ p {
 
 /* code for the navbar */
 #navbar {
-  background: rgb(235, 210, 235);
+  background: #8195A6;
   color: brown;
+
   top: 0;
   position: sticky;
   display: flex;
@@ -47,7 +48,7 @@ ul {
 }
 
 #navbar ul li a:hover {
-  background: rgb(153, 104, 41);
+  background: #8195A6;
   border-radius: 5px;
 }
 
@@ -96,7 +97,7 @@ ul {
   margin: 0 auto;
   display: inline-block;
   color: #fff;
-  background: violet;
+  background: #1E3340;
   padding: 0.5rem 2rem;
   width: 180px;
   border: none;
@@ -107,7 +108,7 @@ ul {
 }
 
 .btn-dark {
-  background: bisque;
+  background: #BF9969;
 }
 
 .container {
@@ -120,6 +121,7 @@ ul {
 .text-center {
   text-align: center;
 }
+
 .py-1 {
   padding: 1.5rem;
 }
@@ -145,7 +147,7 @@ ul {
 }
 
 #what .items .item i {
-  background: palevioletred;
+  background: #BF9969;
   color: black;
   padding: 1rem;
   border-radius: 50%;
@@ -164,7 +166,7 @@ ul {
   background: url("../img/team.jpg") no-repeat center center/cover;
 }
 .bg-light {
-  background: aliceblue;
+  background: #102026;
   color: #333;
 }
 
@@ -186,6 +188,7 @@ ul {
 }
 
 .list {
+  display: block;
   margin: 0.5rem 0;
   list-style: none;
 }
@@ -212,7 +215,7 @@ ul {
 
 /* section .contact */
 .bg-primary {
-  background: white;
+  background: #102026;
   color: black;
 }
 
@@ -234,3 +237,10 @@ ul {
   width: 100%;
   padding: 0.5rem;
 }
+
+.p-center{
+  text-align: center;
+}
+
+
+/* code for media queries */
