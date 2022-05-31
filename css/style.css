@@ -13,9 +13,18 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0.7rem 0;
+}
+
+.text-primary {
+  color: rgb(10, 63, 45);
+}
+
+
 /* code for the navbar */
 #navbar {
-  background: violet;
+  background: rgb(235, 210, 235);
   color: brown;
   top: 0;
   position: sticky;
@@ -38,7 +47,7 @@ ul {
 }
 
 #navbar ul li a:hover {
-  background: burlywood;
+  background: rgb(153, 104, 41);
   border-radius: 5px;
 }
 
@@ -46,7 +55,7 @@ ul {
 #showcase {
   background: url("../img/pic.jpg") no-repeat center center/cover;
   height: 100vh;
-  color: rgb(21, 102, 156);
+  color: rgb(26, 25, 27);
 }
 
 #showcase .show-content {
@@ -63,10 +72,15 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.l-leading {
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.m-heading {
   font-size: 2rem;
   margin-bottom: 0.75rem;
   line-height: 1.1;
@@ -92,6 +106,32 @@ ul {
   background: purple;
 }
 
+.btn-dark {
+  background: bisque;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+.py-1 {
+  padding: 1.5rem;
+}
+
+.py-2 {
+  padding: 2rem;
+}
+
+.py-3 {
+  padding: 3rem;
+}
+
 /* section: what we do */
 .items {
   display: flex;
@@ -105,8 +145,8 @@ ul {
 }
 
 #what .items .item i {
-  background: brown;
-  color: purple;
+  background: palevioletred;
+  color: black;
   padding: 1rem;
   border-radius: 50%;
 }
@@ -168,4 +208,29 @@ ul {
   margin: auto 15px;
   width: 50px;
   height: 50px;
+}
+
+/* section .contact */
+.bg-primary {
+  background: white;
+  color: black;
+}
+
+#contact {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
