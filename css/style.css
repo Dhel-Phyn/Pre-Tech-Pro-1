@@ -188,6 +188,7 @@ ul {
 }
 
 .list {
+  display: block;
   margin: 0.5rem 0;
   list-style: none;
 }
