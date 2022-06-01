@@ -26,7 +26,7 @@ p {
 #navbar {
   background: #8195A6;
   color: brown;
-
+  
   top: 0;
   position: sticky;
   display: flex;
@@ -36,7 +36,7 @@ p {
 }
 
 ul {
-  display: flex;
+  display: b;
   align-items: center;
   list-style: none;
 }
@@ -188,7 +188,6 @@ ul {
 }
 
 .list {
-  display: block;
   margin: 0.5rem 0;
   list-style: none;
 }
