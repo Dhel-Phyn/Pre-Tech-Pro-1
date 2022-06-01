@@ -13,3 +13,10 @@
   align-self: center;
   margin-bottom: 0;
 } 
+
+/* smartphones */
+@media (max-width:500px){
+  body{
+    display: none;
+  }
+}
